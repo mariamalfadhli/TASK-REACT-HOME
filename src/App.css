@@ -38,14 +38,22 @@
 }
 
 .main {
-  height: 100vh;
+  align-items: center;
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  background-color: whitesmoke;
+}
+
+.style {
+  color: rgb(246, 158, 173);
+  font-family: fantasy;
   align-items: center;
   flex-direction: column;
   display: flex;
   justify-content: center;
 }
-
-.style {
-  color: pink;
-  font-family: fantasy;
+.iamgeStyle {
+  width: 200px;
+  height: 200px;
 }
